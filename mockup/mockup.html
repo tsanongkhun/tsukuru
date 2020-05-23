@@ -4,11 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tsukuru &middot; Mockup</title>
-    <link rel="stylesheet" href="../public/css/normalize.css" type="text/css"/>
-    <link rel="stylesheet" href="../public/css/reset.css" type="text/css"/>
-    <link rel="stylesheet" href="../public/css/typography.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS Setup -->
+    <link href="../public/css/normalize.css" rel="stylesheet"/>
+    <link href="../public/css/reset.css" rel="stylesheet"/>
+    <link href="../public/css/typography.css" rel="stylesheet"/>
+    <!-- CSS Styles -->
+    <link href="mockup.css" rel="stylesheet"/>
 </head>
 <body>
-    <p>Hello World</p>
+    <div id="root">
+        <section id="project-banner">
+            <div class="prj-title">
+                <span>tsukuru.</span>
+            </div>
+            <div class="prj-links">
+                <div><img src="../public/icons/house-door-fill.svg" alt="Home Icon" width="32" height="32"/></div>
+                <div><img src="../public/icons/bell-fill.svg" alt="Notification Bell Icon" width="32" height="32"/></div>
+                <div><img src="../public/icons/person-circle.svg" alt="Profile Icon" width="48" height="48"/></div>
+            </div>
+        </section>
+        <section id="project-controller">
+            <div>
+                <span>Programming</span> <img src="../public/icons/caret-down-fill.svg" alt="Descriptive Text" width="16" height="16"/>
+            </div>
+            <div>
+                <span>&vert; Alpha</span>
+            </div>
+        </section>
+        <section id="project-board">
+            <p>Project Board Section</p>
+        </section>
+    </div>
 </body>
 </html>

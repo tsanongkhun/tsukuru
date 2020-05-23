@@ -1,0 +1,12 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="bi bi-house-door-fill">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="2.607122" width="2.607122" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#ebf0f4" id="svg_1" d="m6.5,10.995l0,3.505a0.5,0.5 0 0 1 -0.5,0.5l-4,0a0.5,0.5 0 0 1 -0.5,-0.5l0,-7a0.5,0.5 0 0 1 0.146,-0.354l6,-6a0.5,0.5 0 0 1 0.708,0l6,6a0.5,0.5 0 0 1 0.146,0.354l0,7a0.5,0.5 0 0 1 -0.5,0.5l-4,0a0.5,0.5 0 0 1 -0.5,-0.5l0,-3.5c0,-0.25 -0.25,-0.5 -0.5,-0.5l-2,0c-0.25,0 -0.5,0.25 -0.5,0.495z"/>
+  <path fill="#ebf0f4" id="svg_2" d="m13,2.5l0,3.5l-2,-2l0,-1.5a0.5,0.5 0 0 1 0.5,-0.5l1,0a0.5,0.5 0 0 1 0.5,0.5z" fill-rule="evenodd"/>
+ </g>
+</svg>

@@ -1,0 +1,48 @@
+body {
+    background-color: #22272c;
+    color: #ebf0f4;
+}
+
+#root {
+    display: grid;
+    grid-row-gap: 32px;
+}
+
+/* EVERYTHING RELATING TO THE 1ST ROW */
+#project-banner {
+    margin: 42px 90px 0 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.prj-title {
+    align-self: center;
+}
+.prj-title span {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.prj-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.prj-links div {
+    display: inline-block;
+}
+.prj-links div:nth-child(1) {
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+}
+.prj-links div:nth-child(2) {
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+}
+.prj-links div:nth-child(3) {
+    margin-left: 46px;
+    width: 48px;
+    height: 48px;
+}

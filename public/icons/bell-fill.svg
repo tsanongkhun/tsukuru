@@ -1,0 +1,11 @@
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="bi bi-bell-fill">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="2.607122" height="2.607122" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <path d="m8,16a2,2 0 0 0 2,-2l-4,0a2,2 0 0 0 2,2zm0.995,-14.901a1,1 0 1 0 -1.99,0a5.002,5.002 0 0 0 -4.005,4.901c0,1.098 -0.5,6 -2,7l14,0c-1.5,-1 -2,-5.902 -2,-7c0,-2.42 -1.72,-4.44 -4.005,-4.901z" id="svg_1" fill="#ebf0f4"/>
+ </g>
+</svg>
