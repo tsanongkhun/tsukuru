@@ -46,3 +46,27 @@ body {
     width: 48px;
     height: 48px;
 }
+
+/* EVERYTHING RELATING TO THE 2ND ROW */
+#project-controller {
+    margin: 0 90px 0 90px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.prj-cont-board-select span {
+    font-weight: 700;
+    font-size: 3em;
+}
+.prj-cont-board-select img {
+    margin-left: 8px;
+}
+
+.prj-cont-stage-select {
+    margin-left: 16px;
+}
+.prj-cont-stage-select span {
+    font-weight: 600;
+    font-size: 2em;
+}
