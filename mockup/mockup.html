@@ -16,12 +16,12 @@
     <div id="root">
         <section id="project-banner">
             <div class="prj-title">
-                <span>tsukuru.</span>
+                <span><a href="#" title="Change Project">tsukuru.</a></span>
             </div>
             <div class="prj-links">
-                <div><img src="../public/icons/house-door-fill.svg" alt="Home Icon" width="32" height="32"/></div>
-                <div><img src="../public/icons/bell-fill.svg" alt="Notification Bell Icon" width="32" height="32"/></div>
-                <div><img src="../public/icons/person-circle.svg" alt="Profile Icon" width="48" height="48"/></div>
+                <div><a href="#" title="View Home"><img src="../public/icons/house-door-fill.svg" alt="Home Icon" width="32" height="32"/></a></div>
+                <div><a href="#" title="View Notifications"><img src="../public/icons/bell-fill.svg" alt="Notification Bell Icon" width="32" height="32"/></a></div>
+                <div><a href="#" title="View Profile"><img src="../public/icons/person-circle.svg" alt="Profile Icon" width="48" height="48"/></a></div>
             </div>
         </section>
         <section id="project-controller">
@@ -34,53 +34,70 @@
             </div>
         </section>
         <section id="project-board">
-            <div>
+            <div class="prj-list-wrapper">
                 <header>
                     <span class="prj-list-title">Planned</span>
                     <span><img src="../public/icons/three-vertical-dots.svg" alt="" width="16" height="16"/></span>
                 </header>
-                <ul>
-                    <li>
+                <ul class="prj-list-container">
+                    <li class="prj-list-item">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc faucibus nisl est, et aliquet purus condimentum in. 
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
                         Ut tempus tortor nibh, quis laoreet nisi iaculis convallis. 
-                        Proin euismod tristique lobortis. 
-                        Sed tortor eros, pretium quis leo non, ultrices vehicula sapien. 
-                        Morbi quam ex, interdum eu vehicula sed, aliquet sit amet massa. 
-                        Mauris nulla velit, lobortis quis dictum non, sagittis ac orci. 
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus hendrerit id massa vel imperdiet. 
-                        Fusce rutrum libero risus, fringilla porttitor ligula sollicitudin ac. 
-                        Nunc ultricies tellus sed nisl finibus aliquet. 
-                        Quisque vulputate purus a venenatis ultrices.
+                        Proin euismod tristique lobortis.
                     </li>
-                    <li>
+                    <li class="prj-list-item">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc faucibus nisl est, et aliquet purus condimentum in. 
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
                         Ut tempus tortor nibh, quis laoreet nisi iaculis convallis. 
-                        Proin euismod tristique lobortis. 
-                        Sed tortor eros, pretium quis leo non, ultrices vehicula sapien. 
-                        Morbi quam ex, interdum eu vehicula sed, aliquet sit amet massa. 
-                        Mauris nulla velit, lobortis quis dictum non, sagittis ac orci. 
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus hendrerit id massa vel imperdiet. 
-                        Fusce rutrum libero risus, fringilla porttitor ligula sollicitudin ac. 
-                        Nunc ultricies tellus sed nisl finibus aliquet. 
-                        Quisque vulputate purus a venenatis ultrices.
+                        Proin euismod tristique lobortis.
                     </li>
-                    <li>
+                </ul>
+            </div>
+            <div class="prj-list-wrapper">
+                <header>
+                    <span class="prj-list-title">In Progress</span>
+                    <span><img src="../public/icons/three-vertical-dots.svg" alt="" width="16" height="16"/></span>
+                </header>
+                <ul class="prj-list-container">
+                    <li class="prj-list-item">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Nunc faucibus nisl est, et aliquet purus condimentum in. 
                         Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
                         Ut tempus tortor nibh, quis laoreet nisi iaculis convallis. 
-                        Proin euismod tristique lobortis. 
-                        Sed tortor eros, pretium quis leo non, ultrices vehicula sapien. 
-                        Morbi quam ex, interdum eu vehicula sed, aliquet sit amet massa. 
-                        Mauris nulla velit, lobortis quis dictum non, sagittis ac orci. 
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus hendrerit id massa vel imperdiet. 
-                        Fusce rutrum libero risus, fringilla porttitor ligula sollicitudin ac. 
-                        Nunc ultricies tellus sed nisl finibus aliquet. 
-                        Quisque vulputate purus a venenatis ultrices.
+                        Proin euismod tristique lobortis.
+                    </li>
+                </ul>
+            </div>
+            <div class="prj-list-wrapper">
+                <header>
+                    <span class="prj-list-title">Testing</span>
+                    <span><img src="../public/icons/three-vertical-dots.svg" alt="" width="16" height="16"/></span>
+                </header>
+                <ul class="prj-list-container">
+                    <li class="prj-list-item">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc faucibus nisl est, et aliquet purus condimentum in. 
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                        Ut tempus tortor nibh, quis laoreet nisi iaculis convallis. 
+                        Proin euismod tristique lobortis.
+                    </li>
+                </ul>
+            </div>
+            <div class="prj-list-wrapper">
+                <header>
+                    <span class="prj-list-title">Completed</span>
+                    <span><img src="../public/icons/three-vertical-dots.svg" alt="" width="16" height="16"/></span>
+                </header>
+                <ul class="prj-list-container">
+                    <li class="prj-list-item">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Nunc faucibus nisl est, et aliquet purus condimentum in. 
+                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                        Ut tempus tortor nibh, quis laoreet nisi iaculis convallis. 
+                        Proin euismod tristique lobortis.
                     </li>
                 </ul>
             </div>
